@@ -2,7 +2,7 @@
   "name": "react-todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vipon4ik.github.io/react-todo/",
+  "homepage": "https://VIPon4ik.github.io/react-todo/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
