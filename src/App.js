@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "components/Layout/Layout";
 import Home from "pages/Home";
 import CreateForm from "pages/CreateForm";
+import EditTodo from "pages/EditTodo";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
                 <Route path="create" element={<CreateForm />} />
+                <Route path="edit/:id" element={<EditTodo />} />
             </Route>
         </Routes>
     );
